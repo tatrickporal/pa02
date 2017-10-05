@@ -1,0 +1,43 @@
+PATRICK TORAL (cruzID: ptoral)
+
+I have read and understood the Academic Misconduct Policy for
+Undergraduates, the related sections 102.01-102.016 and 105.15 of the UC Santa Cruz Student Policies and Regulations Handbook, and the related sections of the class syllabus.
+
+Patrick Jose Toral
+
+I wrote this assignment using only permitted sources that do not require citation, according to the syllabus.
+
+----------------------------------------------------------------------------------------------------------------------------------
+PROGRAM INFORMATION :
+
+The program needs at least 2 and at most 3 command line arguments to run. Once compiled it does throw warnings of implicit declarations but the code runs normally if run on the unix timeshare. All outputs match and all functions and pointers work.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+HOW TO RUN :
+
+1. make
+2. ./graph02 (FLAG) (INPUT FILE)
+
+HOW TO MAKE .o FILES :
+1. make .o
+
+HOW TO RETURN DIRECTORY TO ORIGINAL STATE :
+1. make clean
+
+IF N > 20 :
+1. THE OUTPUT FILE WILL BE PUT INTO THE FILE CALLED out_file.txt
+2. cat out_file.txt (TO OPEN)
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+THINGS TO MENTION :
+1. The transpose of a transposed graph is equal to the original graph from the input file. 
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+TEST FILE INFORMATION :
+test1.txt - correct input 
+test2.txt - correct input but too large, so no matrix will be given
+test3.txt - incorrect input too many characters given to first line 
+test4.txt - incorrect input number given to edge > n, which wouldnt exist
